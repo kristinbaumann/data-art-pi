@@ -9,7 +9,7 @@ export const configureChart = (svgElement, margin, width, height) => {
     .attr("height", height + margin.top + margin.bottom);
 };
 
-export const drawPath = (svgElement, data, scales, margin) => {
+export const drawPath = (svgElement, data, scales, margin, colorSetting) => {
   // define the line
   const valueline = line()
     .x(d => scales.scaleX(d.x))
@@ -29,11 +29,19 @@ export const drawPath = (svgElement, data, scales, margin) => {
       .append("path")
       .data([dataItem])
       .attr("d", valueline)
-      .attr("class", `line line-digit-${data[i].digit}`)
-    //   .each(function(d) {
-    //     d.totalLength = this.getTotalLength();
-    //   })
-    //   .attr("data-length", (d) => d.totalLength);
+      .attr("class", d => {
+        if (colorSetting === "colorByDigit") {
+          return `line line-digit-${data[i].digit}`;
+        } else if (colorSetting === "colorByRange") {
+          return `line line-digit-${Math.round(i / (data.length + 1) * 10)}`;
+        } else {
+          return `line line-default`;
+        }
+      })
+      .each(function(d) {
+        d.totalLength = this.getTotalLength();
+      })
+      .attr("data-length", (d) => d.totalLength);
   }
   return pathGroup;
 };

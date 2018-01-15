@@ -15,18 +15,18 @@ export const calculateScales = (data, width, height) => {
   const minY = min(data, d => getMin(d, "y"));
   const maxY = max(data, d => getMax(d, "y"));
 
-  const minTotal = minX < minY ? minX : minY;
-  const maxTotal = maxX < maxY ? maxX : maxY;
+  const minTotal = minX <= minY ? minX : minY;
+  const maxTotal = maxX <= maxY ? maxX : maxY;
 
-  const x = scaleLinear()
+  const scaleX = scaleLinear()
     .range([0, width])
-    .domain([minTotal, maxTotal]);
+    .domain([minTotal, maxTotal+1]);
 
-  const y = scaleLinear()
+  const scaleY = scaleLinear()
     .range([height, 0])
-    .domain([minTotal, maxTotal]);
+    .domain([minTotal, maxTotal+1]);
 
-  return { scaleX: x, scaleY: y };
+  return { scaleX, scaleY };
 };
 
 export const drawAxis = (svgElement, scales, height) => {
