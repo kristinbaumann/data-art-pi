@@ -1,0 +1,51 @@
+#container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+$colorDigit0: #efb604;
+$colorDigit1: #ec990f;
+$colorDigit2: #e63822;
+$colorDigit3: #d1003e;
+$colorDigit4: #ae0460;
+$colorDigit5: #872f89;
+$colorDigit6: #4f53a9;
+$colorDigit7: #1f8497;
+$colorDigit8: #13a866;
+$colorDigit9: #7eb851;
+
+.line-digit-0{
+    stroke: $colorDigit0;
+}
+.line-digit-1{
+    stroke: $colorDigit1;
+}
+.line-digit-2{
+    stroke: $colorDigit2;
+}
+.line-digit-3{
+    stroke: $colorDigit3;
+}
+.line-digit-4{
+    stroke: $colorDigit4;
+}
+.line-digit-5{
+    stroke: $colorDigit5;
+}
+.line-digit-6{
+    stroke: $colorDigit6;
+}
+.line-digit-7{
+    stroke: $colorDigit7;
+}
+.line-digit-8{
+    stroke: $colorDigit8;
+}
+.line-digit-9{
+    stroke: $colorDigit9;
+}
