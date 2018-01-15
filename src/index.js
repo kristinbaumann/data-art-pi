@@ -5,8 +5,10 @@ import { calculateScales, drawAxis } from "./scales";
 import { configureChart, drawPath } from "./chart";
 import "./style.scss";
 
+var amount = 100000;
+
 // get and clean data
-calculatePathElements('100', step, startPoint, (data) => {
+calculatePathElements(amount, step, startPoint, (data) => {
 
     // create svg element
     const svgElement = select("#container").append("svg");
