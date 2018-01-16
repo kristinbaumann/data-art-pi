@@ -16,7 +16,7 @@ export const calculateScales = (data, width, height) => {
   const maxY = max(data, d => getMax(d, "y"));
 
   const minTotal = minX <= minY ? minX : minY;
-  const maxTotal = maxX <= maxY ? maxX : maxY;
+  const maxTotal = maxX <= maxY ? maxY : maxX;
 
   const scaleX = scaleLinear()
     .range([0, width])

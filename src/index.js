@@ -5,8 +5,9 @@ import { calculateScales, drawAxis } from "./scales";
 import { configureChart, drawPath } from "./chart";
 import "./style.scss";
 
-var amount = 10000;
-var colorSetting = 'colorByDigit';
+var amount = 1000;
+var velocity = null;
+var colorSetting = 'colorByRange';
 
 // get and clean data
 calculatePathElements(amount, step, startPoint, (data) => {
@@ -21,9 +22,9 @@ calculatePathElements(amount, step, startPoint, (data) => {
     configureChart(svgElement, margin, width, height);
     
     // draw line
-    const pathGroup = drawPath(svgElement, data, scales, margin, colorSetting);
+    const pathGroup = drawPath(svgElement, data, scales, margin, colorSetting, velocity);
     
     // draw axis 
-    drawAxis(pathGroup, scales, height);
+    // drawAxis(pathGroup, scales, height);
 });
 
