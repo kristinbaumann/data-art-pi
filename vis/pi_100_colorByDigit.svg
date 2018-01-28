@@ -1,0 +1,243 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+<defs>
+    <style type="text/css">
+    <![CDATA[
+    .line{
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+    }
+    .line-digit-0{
+        stroke: #efb604;
+    }
+    .line-digit-1{
+        stroke: #ec990f;
+    }
+    .line-digit-2{
+        stroke: #e63822;
+    }
+    .line-digit-3{
+        stroke: #d1003e;
+    }
+    .line-digit-4{
+        stroke: #ae0460;
+    }
+    .line-digit-5{
+        stroke: #872f89;
+    }
+    .line-digit-6{
+        stroke: #4f53a9;
+    }
+    .line-digit-7{
+        stroke: #1f8497;
+    }
+    .line-digit-8{
+        stroke: #13a866;
+    }
+    .line-digit-9{
+        stroke: #7eb851;
+    }
+    ]]>
+    </style>
+</defs>
+<g transform="translate(30,20)">
+<path d="M251.38600252014388,304.0433428885808L285.6771146478028,255.9875367274875" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.03593063354492 59.03593063354492" stroke-dashoffset="0">
+</path>
+<path d="M285.6771146478028,255.9875367274875L319.96822677546174,304.0433428885808" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M319.96822677546174,304.0433428885808L354.25933890312064,255.9875367274875" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M354.25933890312064,255.9875367274875L354.25933890312064,315.38777985615206" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.40025329589844 59.40025329589844" stroke-dashoffset="0">
+</path>
+<path d="M354.25933890312064,315.38777985615206L319.96822677546174,267.3319736950588" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M319.96822677546174,267.3319736950588L375.45241171004756,248.97628909829774" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M375.45241171004756,248.97628909829774L341.16129958238866,297.03209525939104" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.035953521728516 59.035953521728516" stroke-dashoffset="0">
+</path>
+<path d="M341.16129958238866,297.03209525939104L341.16129958238866,356.4323383880556" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M341.16129958238866,356.4323383880556L396.6454845169745,374.7880229848166" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M396.6454845169745,374.7880229848166L396.6454845169745,434.1882661134812" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M396.6454845169745,434.1882661134812L341.16129958238866,415.8325815167202" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M341.16129958238866,415.8325815167202L306.8701874547297,367.7767753556269" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M306.8701874547297,367.7767753556269L251.38600252014388,386.1324599523879" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.4416389465332 58.4416389465332" stroke-dashoffset="0">
+</path>
+<path d="M251.38600252014388,386.1324599523879L217.09489039248498,338.07665379129463" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M217.09489039248498,338.07665379129463L272.57907532707077,356.4323383880556" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.4416389465332 58.4416389465332" stroke-dashoffset="0">
+</path>
+<path d="M272.57907532707077,356.4323383880556L328.06326026165664,338.07665379129463" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M328.06326026165664,338.07665379129463L383.54744519624245,356.4323383880556" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M383.54744519624245,356.4323383880556L328.06326026165664,338.07665379129463" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M328.06326026165664,338.07665379129463L362.35437238931553,386.1324599523879" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M362.35437238931553,386.1324599523879L328.06326026165664,434.1882661134812" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M328.06326026165664,434.1882661134812L383.54744519624245,415.8325815167202" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M383.54744519624245,415.8325815167202L349.25633306858356,463.88838767781345" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,463.88838767781345L383.54744519624245,511.9441938389067" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M383.54744519624245,511.9441938389067L439.0316301308283,530.2998784356677" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.44162368774414 58.44162368774414" stroke-dashoffset="0">
+</path>
+<path d="M439.0316301308283,530.2998784356677L494.5158150654142,548.6555630324287" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.4416618347168 58.4416618347168" stroke-dashoffset="0">
+</path>
+<path d="M494.5158150654142,548.6555630324287L439.0316301308283,530.2998784356677" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.4416618347168 58.4416618347168" stroke-dashoffset="0">
+</path>
+<path d="M439.0316301308283,530.2998784356677L494.5158150654142,548.6555630324287" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.4416618347168 58.4416618347168" stroke-dashoffset="0">
+</path>
+<path d="M494.5158150654142,548.6555630324287L550,530.2998784356677" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.4416618347168 58.4416618347168" stroke-dashoffset="0">
+</path>
+<path d="M550,530.2998784356677L494.5158150654142,548.6555630324289" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.4416618347168 58.4416618347168" stroke-dashoffset="0">
+</path>
+<path d="M494.5158150654142,548.6555630324289L460.2247029377553,500.59975687133544" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M460.2247029377553,500.59975687133544L460.2247029377553,560" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M460.2247029377553,560L460.2247029377553,500.59975687133544" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M460.2247029377553,500.59975687133544L515.708887872341,482.2440722745744" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.44162368774414 58.44162368774414" stroke-dashoffset="0">
+</path>
+<path d="M515.708887872341,482.2440722745744L460.2247029377553,463.88838767781345" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.44162368774414 58.44162368774414" stroke-dashoffset="0">
+</path>
+<path d="M460.2247029377553,463.88838767781345L404.74051800316937,445.53270308105243" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M404.74051800316937,445.53270308105243L439.0316301308283,493.58850924214573" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M439.0316301308283,493.58850924214573L473.32274225848727,445.53270308105243" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.035926818847656 59.035926818847656" stroke-dashoffset="0">
+</path>
+<path d="M473.32274225848727,445.53270308105243L439.0316301308283,397.47689691995913" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.035953521728516 59.035953521728516" stroke-dashoffset="0">
+</path>
+<path d="M439.0316301308283,397.47689691995913L383.54744519624245,415.8325815167202" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.44162368774414 58.44162368774414" stroke-dashoffset="0">
+</path>
+<path d="M383.54744519624245,415.8325815167202L417.8385573239014,367.7767753556269" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M417.8385573239014,367.7767753556269L383.54744519624245,415.8325815167202" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M383.54744519624245,415.8325815167202L349.25633306858356,367.7767753556269" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,367.7767753556269L404.74051800316937,386.1324599523879" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.44162368774414 58.44162368774414" stroke-dashoffset="0">
+</path>
+<path d="M404.74051800316937,386.1324599523879L370.4494058755105,338.07665379129463" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,338.07665379129463L336.1582937478516,290.02084763020133" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,290.02084763020133L391.6424786824374,308.37653222696235" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M391.6424786824374,308.37653222696235L336.1582937478516,326.7322168237233" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,326.7322168237233L336.1582937478516,386.1324599523879" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,386.1324599523879L370.4494058755105,338.07665379129463" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,338.07665379129463L370.4494058755105,278.6764106626301" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,278.6764106626301L370.4494058755105,338.07665379129463" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,338.07665379129463L314.96522094092467,319.7209691945336" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,319.7209691945336L370.4494058755105,301.36528459777264" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,301.36528459777264L370.4494058755105,241.9650414691081" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.40025329589844 59.40025329589844" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,241.9650414691081L336.1582937478516,193.9092353080148" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,193.9092353080148L280.6741088132658,212.2649199047758" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M280.6741088132658,212.2649199047758L314.96522094092467,260.32072606586905" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,260.32072606586905L280.6741088132658,212.2649199047758" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M280.6741088132658,212.2649199047758L314.96522094092467,260.32072606586905" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,260.32072606586905L349.25633306858356,308.37653222696235" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.035926818847656 59.035926818847656" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,308.37653222696235L349.25633306858356,367.7767753556269" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,367.7767753556269L314.96522094092467,319.7209691945336" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.035926818847656 59.035926818847656" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,319.7209691945336L370.4494058755105,301.36528459777264" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,301.36528459777264L425.9335908100963,319.7209691945336" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M425.9335908100963,319.7209691945336L425.9335908100963,260.32072606586905" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M425.9335908100963,260.32072606586905L370.4494058755105,278.6764106626301" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,278.6764106626301L314.96522094092467,260.32072606586905" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,260.32072606586905L349.25633306858356,212.2649199047758" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.035953521728516 59.035953521728516" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,212.2649199047758L314.96522094092467,260.32072606586905" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.035953521728516 59.035953521728516" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,260.32072606586905L349.25633306858356,308.37653222696235" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.035926818847656 59.035926818847656" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,308.37653222696235L349.25633306858356,248.97628909829774" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M349.25633306858356,248.97628909829774L314.96522094092467,297.03209525939104" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.035953521728516 59.035953521728516" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,297.03209525939104L370.4494058755105,278.6764106626301" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,278.6764106626301L314.96522094092467,260.32072606586905" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M314.96522094092467,260.32072606586905L280.6741088132658,308.37653222696235" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.035911560058594 59.035911560058594" stroke-dashoffset="0">
+</path>
+<path d="M280.6741088132658,308.37653222696235L336.1582937478516,290.02084763020133" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,290.02084763020133L336.1582937478516,230.62060450153677" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,230.62060450153677L280.6741088132658,212.2649199047758" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M280.6741088132658,212.2649199047758L246.3829966856068,164.2091137436825" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M246.3829966856068,164.2091137436825L212.09188455794788,116.15330758258926" class="line line-digit-9" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M212.09188455794788,116.15330758258926L156.60769962336204,97.79762298582824" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M156.60769962336204,97.79762298582824L122.31658749570313,145.85342914692154" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M122.31658749570313,145.85342914692154L177.80077243028896,127.49774455016058" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.4416389465332 58.4416389465332" stroke-dashoffset="0">
+</path>
+<path d="M177.80077243028896,127.49774455016058L122.31658749570313,109.1420599533995" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.4416389465332 58.4416389465332" stroke-dashoffset="0">
+</path>
+<path d="M122.31658749570313,109.1420599533995L122.31658749570313,49.741816824735" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.40024185180664 59.40024185180664" stroke-dashoffset="0">
+</path>
+<path d="M122.31658749570313,49.741816824735L177.80077243028896,68.09750142149596" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.4416389465332 58.4416389465332" stroke-dashoffset="0">
+</path>
+<path d="M177.80077243028896,68.09750142149596L212.09188455794788,116.15330758258926" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.03593063354492 59.03593063354492" stroke-dashoffset="0">
+</path>
+<path d="M212.09188455794788,116.15330758258926L156.60769962336204,97.79762298582824" class="line line-digit-8" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M156.60769962336204,97.79762298582824L212.09188455794788,79.44193838906727" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M212.09188455794788,79.44193838906727L212.09188455794788,138.84218151773183" class="line line-digit-5" style="opacity: 1;" stroke-dasharray="59.400238037109375 59.400238037109375" stroke-dashoffset="0">
+</path>
+<path d="M212.09188455794788,138.84218151773183L267.57606949253375,157.1978661144928" class="line line-digit-3" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M267.57606949253375,157.1978661144928L301.86718162019264,205.25367227558604" class="line line-digit-4" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M301.86718162019264,205.25367227558604L357.3513665547785,186.89798767882507" class="line line-digit-2" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M357.3513665547785,186.89798767882507L391.6424786824374,138.84218151773183" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.03593444824219 59.03593444824219" stroke-dashoffset="0">
+</path>
+<path d="M391.6424786824374,138.84218151773183L425.9335908100963,90.78637535663853" class="line line-digit-1" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M425.9335908100963,90.78637535663853L370.4494058755105,109.1420599533995" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,109.1420599533995L370.4494058755105,49.741816824735" class="line line-digit-0" style="opacity: 1;" stroke-dasharray="59.40024185180664 59.40024185180664" stroke-dashoffset="0">
+</path>
+<path d="M370.4494058755105,49.741816824735L336.1582937478516,97.79762298582824" class="line line-digit-6" style="opacity: 1;" stroke-dasharray="59.03592300415039 59.03592300415039" stroke-dashoffset="0">
+</path>
+<path d="M336.1582937478516,97.79762298582824L280.6741088132658,116.15330758258926" class="line line-digit-7" style="opacity: 1;" stroke-dasharray="58.441654205322266 58.441654205322266" stroke-dashoffset="0">
+</path>
+</g>
+</svg>
