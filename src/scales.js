@@ -20,11 +20,11 @@ export const calculateScales = (data, width, height) => {
 
   const scaleX = scaleLinear()
     .range([0, width])
-    .domain([minTotal, maxTotal+1]);
+    .domain([minTotal, maxTotal]);
 
   const scaleY = scaleLinear()
     .range([height, 0])
-    .domain([minTotal, maxTotal+1]);
+    .domain([minTotal, maxTotal]);
 
   return { scaleX, scaleY };
 };

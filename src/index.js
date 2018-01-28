@@ -5,9 +5,11 @@ import { calculateScales, drawAxis } from "./scales";
 import { configureChart, drawPath } from "./chart";
 import "./style.scss";
 
-var amount = 100;
-var velocity = 100;
-var colorSetting = 'colorByDigit';
+var amount = 1000;
+var velocity = 10;
+var colorSetting = 'colorByRange';
+
+document.querySelector('.digits').innerHTML = `${amount} digits`;
 
 // get and clean data
 calculatePathElements(amount, step, startPoint, (data) => {
