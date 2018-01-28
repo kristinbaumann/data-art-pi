@@ -11,7 +11,8 @@ function movePointAtAngle(point, digit, distance) {
 
 export const calculatePathElements = (amount, step, initialStart, callback) => {
   // read all digits from data file as JSON
-  json("../data/piDigits.json", (error, digitsFromFile) => {
+  const URL = location.hostname === "localhost" ? "../data/piDigits.json" : "https://www.kristin-baumann.com/data-art-pi/data/piDigits.json";
+  json(URL, (error, digitsFromFile) => {
     // select needed amount of digitis
     let digits = digitsFromFile["digits" + amount];
 
