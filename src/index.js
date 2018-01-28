@@ -43,6 +43,6 @@ const startVis = (digits, colorMode, velocity) => {
         const scales = calculateScales(data, width, height);
         
         // draw lines
-        drawPath(svgElement, data, scales, margin, colorMode, velocity);
+        drawPath(svgElement, data, scales, margin, colorMode, velocity, startPoint);
     });
 }

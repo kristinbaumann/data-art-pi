@@ -21,7 +21,8 @@ export const drawPath = (
   scales,
   margin,
   colorMode,
-  velocity
+  velocity,
+  startPoint
 ) => {
   // define the line function
   const valueline = line()
@@ -62,5 +63,17 @@ export const drawPath = (
         .attr("stroke-dashoffset", 0);
     }
   }
+
+  // add start marker
+  pathGroup.append('path')
+    .attr('d', d => { 
+      const step = 0.09;
+      let path = 'M' + scales.scaleX(startPoint.x) +','+ scales.scaleY(startPoint.y - 0.03);
+      path += 'L' + scales.scaleX(startPoint.x-step) + ',' + scales.scaleY(startPoint.y-step);
+      path += 'L' + scales.scaleX(startPoint.x+step) + ',' + scales.scaleY(startPoint.y-step) + 'z';
+      return path;
+    })
+    .attr('class', 'startMarker')
+
   return pathGroup;
 };
