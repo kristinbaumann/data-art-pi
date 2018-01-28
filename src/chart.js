@@ -28,7 +28,6 @@ export const drawPath = (
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   for (let i = 0; i < data.length; i++) {
-
     const dataItem = [
       { x: data[i].x1, y: data[i].y1 },
       { x: data[i].x2, y: data[i].y2 }
