@@ -66,9 +66,24 @@ body{
     font-style: italic;
 }
 
-.main p{
+.container p{
     font-size: 16px;
     margin: 8px 0;
+}
+
+.legend{
+    position: absolute;
+    left: 300px;
+    left: 310px;
+    top: 40px;
+}
+
+.legendByDigit{
+    max-width: 100px;
+}
+
+.legendByRange{
+    max-width: 200px;
 }
 
 #chart {

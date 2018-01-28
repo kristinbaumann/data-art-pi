@@ -5,6 +5,10 @@ import { calculateScales } from "./scales";
 import { configureChart, drawPath } from "./chart";
 import "./style.scss";
 
+import legendByDigit from './images/legendByDigit.png';
+import legendByRange from './images/legendByRange.png';
+
+
 document.querySelector(".startButton").onclick = () => {
     // get settings
     var digits = Number(document.querySelector('#setting-digits').value);
@@ -13,6 +17,13 @@ document.querySelector(".startButton").onclick = () => {
 
     // call drawing function
     startVis(digits, colorMode, animation);
+
+    // show legend
+    const legend = document.querySelector('.legend')
+    legend.src = colorMode === 'colorByDigit' ?  legendByDigit : legendByRange;
+    legend.classList.remove("legendByDigit","legendByRange");
+    legend.classList.add(colorMode === 'colorByDigit' ?  "legendByDigit" : "legendByRange");
+
 }
 
 const startVis = (digits, colorMode, velocity) => {
