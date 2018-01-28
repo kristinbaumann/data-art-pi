@@ -2,11 +2,53 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Data Art</title>
+    <title>Data Art with Pi</title>
 </head>
 
 <body>
-    <h1>Data Art Pi</h1>
-    <p class="digits"></p>
-    <div id="container"></div>
+    <div class="container">
+        <div class="main">
+            <div>
+                <h1>Data Art with Pi</h1>
+                <div class="setting">
+                    <label for="digits">Number of shown digits: </label>
+                    <select id="setting-digits" name="digits">
+                        <option value="100">100</option>
+                        <option value="1000">1000</option>
+                        <option value="10000">10000</option>
+                    </select>
+                </div>
+                <div class="setting">
+                    <label for="colormode">Coloring mode: </label>
+                    <select id="setting-colormode" name="colormode">
+                        <option value="colorByDigit">By specific digit</option>
+                        <option value="colorByRange">By digit in range</option>
+                    </select>
+                </div>
+                <div class="setting">
+                    <label for="animation">Animation: </label>
+                    <select id="setting-animation" name="animation">
+                        <option value="0">No animation</option>
+                        <option value="10">10 ms</option>
+                        <option value="100">100 ms</option>
+                        <option value="1000">1000 ms</option>
+                    </select>
+                </div>
+                <button class="startButton">Generate Visualisation</button>
+            </div>
+
+            <div>
+                <p>Implementation by
+                    <a href="https://www.kristin-baumann.com" target="_blank">Kristin Baumann</a>
+                </p>
+                <p>Code on
+                    <a href="https://github.com/kristinbaumann/data-art" target="_blank">Github</a>
+                </p>
+                <p>Blog post on
+                    <a href="" target="_blank">Medium</a>
+                </p>
+            </div>
+        </div>
+        <div id="chart"></div>
+    </div>
 </body>

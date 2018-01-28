@@ -1,14 +1,80 @@
-#container {
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 32px;
+    position: relative;
+}
+
+.container .main{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 600px;
+}
+
+.container select, .container label{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.container select{
+    flex-grow: 1;
+}
+
+.container label{
+    margin-right: 8px;
+}
+
+.container .setting{
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.container .startButton{
+    background-color: #3a3934;
+    padding: 16px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.container .startButton:hover{
+    opacity: .9;
+}
+
+.container h1{
+    margin-top: 0;
+}
+
+.main p{
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+#chart {
     margin: 0 auto;
     width: 800px;
+    height: 600px;
+    left: 300px;
+    position: absolute;
+    background-color: #f8f8f8;
 }
 
 .line {
     fill: none;
     stroke-width: 2px;
-}
-
-.line-default{
     stroke: #000;
 }
 

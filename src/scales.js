@@ -1,11 +1,19 @@
-import { scaleLinear, min, max, axisBottom, axisLeft } from "d3";
+import { 
+  scaleLinear,
+  min, max, 
+  // axisBottom, axisLeft 
+} from "d3";
 
-const getMax = (d, el) => {
-  return d[el + "1"] > d[el + "2"] ? d[el + "1"] : d[el + "2"];
+const getMax = (d, dir) => {
+  return d.startPoint[dir] > d.endPoint[dir]
+    ? d.startPoint[dir]
+    : d.endPoint[dir];
 };
 
-const getMin = (d, el) => {
-  return d[el + "1"] > d[el + "2"] ? d[el + "2"] : d[el + "1"];
+const getMin = (d, dir) => {
+  return d.startPoint[dir] > d.endPoint[dir]
+    ? d.endPoint[dir]
+    : d.startPoint[dir];
 };
 
 export const calculateScales = (data, width, height) => {
@@ -29,15 +37,15 @@ export const calculateScales = (data, width, height) => {
   return { scaleX, scaleY };
 };
 
-export const drawAxis = (svgElement, scales, height) => {
-  // Draw the X Axis
-  svgElement
-    .append("g")
-    .attr("transform", "translate(0," + height + ")")
-    .call(axisBottom(scales.scaleX));
+// export const drawAxis = (svgElement, scales, height) => {
+//   // Draw the X Axis
+//   svgElement
+//     .append("g")
+//     .attr("transform", "translate(0," + height + ")")
+//     .call(axisBottom(scales.scaleX));
 
-  // Draw the Y Axis
-  svgElement
-    .append("g")
-    .call(axisLeft(scales.scaleY));
-};
+//   // Draw the Y Axis
+//   svgElement
+//     .append("g")
+//     .call(axisLeft(scales.scaleY));
+// };
