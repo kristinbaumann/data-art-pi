@@ -17,7 +17,8 @@ module.exports = {
       {
         test:/\.(s*)css$/,
         use: ["style-loader", "css-loader", "sass-loader"]
-      }
+      },
+      { test: /\.png$/, loader: "url-loader?mimetype=image/png" }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
