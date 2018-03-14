@@ -12,6 +12,16 @@ const cleanVis = () => {
   select("#chart svg").remove();
 };
 
+const showLegend = () => {
+    var colorMode = document.querySelector("#setting-colormode").value;
+    const legend = document.querySelector(".legend");
+    legend.src = colorMode === "colorByDigit" ? legendByDigit : legendByRange;
+    legend.classList.remove("legendByDigit", "legendByRange");
+    legend.classList.add(
+      colorMode === "colorByDigit" ? "legendByDigit" : "legendByRange"
+    );
+}
+
 const runVis = () => {
   // get settings
   var digits = Number(document.querySelector("#setting-digits").value);
@@ -21,13 +31,8 @@ const runVis = () => {
   // call drawing function
   startVis(digits, colorMode, animation);
 
-  // show legend
-  const legend = document.querySelector(".legend");
-  legend.src = colorMode === "colorByDigit" ? legendByDigit : legendByRange;
-  legend.classList.remove("legendByDigit", "legendByRange");
-  legend.classList.add(
-    colorMode === "colorByDigit" ? "legendByDigit" : "legendByRange"
-  );
+  // draw legend
+  showLegend();
 };
 
 const startVis = (digits, colorMode, velocity) => {
@@ -58,6 +63,8 @@ runVis();
 
 // remove previous data vis when settings change
 document.querySelector("#setting-digits").onchange = () => cleanVis();
-document.querySelector("#setting-colormode").onchange = () => cleanVis();
+document.querySelector("#setting-colormode").onchange = () => {
+  cleanVis();
+  showLegend();
+};
 document.querySelector("#setting-animation").onchange = () => cleanVis();
-
