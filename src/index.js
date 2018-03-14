@@ -59,5 +59,5 @@ runVis();
 // remove previous data vis when settings change
 document.querySelector("#setting-digits").onchange = () => cleanVis();
 document.querySelector("#setting-colormode").onchange = () => cleanVis();
-document.querySelector("#setting-colormode").onchange = () => cleanVis();
+document.querySelector("#setting-animation").onchange = () => cleanVis();
 
